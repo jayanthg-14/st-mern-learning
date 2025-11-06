@@ -42,7 +42,7 @@ function processPayment(rider, fare){
 
 function createRide(rider, driver, distance, fare){
     let ride = {  
-        "rideId":"001",
+        "rideId":String(RIDES.length+1).padStart(3,0),
         "riderId":rider.id,
         "driverId":driver.id,
         "distance": distance,
