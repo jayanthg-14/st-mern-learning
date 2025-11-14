@@ -22,7 +22,7 @@ function matchDrivers(drivers){
             driver = drivers[i];
             break;
         }
-    }
+    
     return driver;
 }
 
